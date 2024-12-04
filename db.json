@@ -1,0 +1,19 @@
+{
+    "city": [
+      {
+        "key": 1,
+        "value": "Hà Nội",
+        "id": "edae"
+      },
+      {
+        "key": 2,
+        "value": "Hồ Chí Minh",
+        "id": "3118"
+      },
+      {
+        "key": 3,
+        "value": "Đà Nẵng",
+        "id": "6685"
+      }
+    ]
+}
