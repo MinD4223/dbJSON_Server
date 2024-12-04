@@ -1,19 +1,178 @@
 {
-    "city": [
-      {
-        "key": 1,
-        "value": "Hà Nội",
-        "id": "edae"
-      },
-      {
-        "key": 2,
-        "value": "Hồ Chí Minh",
-        "id": "3118"
-      },
-      {
-        "key": 3,
-        "value": "Đà Nẵng",
-        "id": "6685"
-      }
-    ]
+  "city": [
+    {
+      "key": 1,
+      "value": "Hà Nội",
+      "id": "edae"
+    },
+    {
+      "key": 2,
+      "value": "Hồ Chí Minh",
+      "id": "3118"
+    },
+    {
+      "key": 3,
+      "value": "Đà Nẵng",
+      "id": "6685"
+    }
+  ],
+  "tags": [
+    {
+      "key": 1,
+      "value": "Java",
+      "id": "c830"
+    },
+    {
+      "key": 2,
+      "value": "PHP",
+      "id": "5b3a"
+    },
+    {
+      "key": 1,
+      "value": "SQL",
+      "id": "f34d"
+    }
+  ],
+  "jobs": [
+    {
+      "name": "Frontend Developer",
+      "tags": [
+        "ReactJS",
+        "VueJS",
+        "Điều hòa",
+        "Nóng lạnh"
+      ],
+      "salary": "1000",
+      "description": "Top 3 reason.....",
+      "status": false,
+      "createAt": "03-11-2024 07:34:19",
+      "id": "2",
+      "city": [
+        "Đà Nẵng",
+        "Hà Nội"
+      ],
+      "updateAt": "29-04-2003 21:22:17"
+    },
+    {
+      "name": "Developer",
+      "tags": [
+        "ReactJS",
+        "VueJS"
+      ],
+      "salary": "1000",
+      "description": "Top 3 reason.....",
+      "status": false,
+      "createAt": "29-04-2003 21:22:17",
+      "id": "5",
+      "city": [
+        "Hồ Chí Minh"
+      ],
+      "updateAt": "29-04-2003 21:22:17"
+    },
+    {
+      "id": "dcd0",
+      "name": "Backend Developer",
+      "tags": [
+        "Wifi",
+        "Điều hòa"
+      ],
+      "city": [
+        "Nóng lạnh",
+        "Điều hòa"
+      ],
+      "salary": "10008",
+      "description": "tesst",
+      "createAt": "03-11-2024 07:34:06",
+      "status": true
+    }
+  ],
+  "cv": [
+    {
+      "id": "1",
+      "idJob": "5",
+      "idUser": "4674", 
+      "name": "Le Van A",
+      "phone": "0123584734",
+      "email": "LevanA@gmail.com",
+      "statusRead": true,
+      "createAt": "29-04-2003 21:22:17"
+     
+    },
+    {
+      "id": "20f5",
+      "idJob": "5",
+      "idUser": "4674", 
+      "name": "CV_management",
+      "email": "horanjamerson11@outlook.com",
+      "phone": "837849",
+      "statusRead": true
+    },
+    {
+      "id": "ea56",
+      "idJob": "5",
+      "idUser": "4674", 
+      "name": "CV_management",
+      "email": "minhduc04022003@gmail.com",
+      "phone": "5454",
+      "statusRead": true
+    },
+    {
+      "id": "59f7",
+      "idJob": "2",
+      "idUser": "4674", 
+      "name": "NguyenVanDai",
+      "email": "dainjnjnj",
+      "phone": "0238343",
+      "statusRead": true
+    }
+  ],
+  "company": [
+    {
+      "companyName": "Công ty ABX",
+      "phone": "9384909433",
+      "email": "contactabc.com",
+      "password": "12345",
+      "token": "jhsuiHSUYjsiue",
+      "id": "1",
+      "quantityPeople": 8,
+      "description": "Tầm nhìn chiên sluwojcb.....",
+      "detail": "Mức lương cạnh tranh ....",
+      "address": "Nam TU Liem",
+      "workingTime": "T2-T7",
+      "website": "https://abcxyz.com"
+    }
+  ],
+  "account": [
+    {
+      "phone": "9384909433",
+      "email": "contactabc.com",
+      "password": "12345",
+      "token": "jhsuiHSUYjsiue",
+      "id": "1"
+    },
+    {
+      "id": "4674",
+      "name": "Miuye",
+      "email": "leemindee204@gmail.com",
+      "phone": "837849",
+      "password": "3434",
+      "token": "du1qAPtxk20UG6D7tvQk"
+    },
+    {
+      "id": "f1c5",
+      "name": "Dai",
+      "email": "dai.com",
+      "phone": "8983297",
+      "password": "343423",
+      "token": "1j9kpuUrS4kVlkfz6XGk"
+    },
+    {
+      "id": "51cf",
+      "name": "CV_management",
+      "email": "minhduc04022003@mindx.net",
+      "phone": "983874",
+      "password": "3234243",
+      "token": "g9XbzfHBQxChPU0800QN"
+    }
+  ]
 }
