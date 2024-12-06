@@ -61,8 +61,8 @@
       ],
       "salary": "1000",
       "description": "Top 3 reason.....",
-      "status": false,
-      "createAt": "29-04-2003 21:22:17",
+      "status": true,
+      "createAt": "05-11-2024 11:22:17",
       "id": "5",
       "city": [
         "Hồ Chí Minh"
@@ -88,91 +88,81 @@
   ],
   "cv": [
     {
-      "id": "1",
-      "idJob": "5",
-      "idUser": "4674", 
-      "name": "Le Van A",
-      "phone": "0123584734",
-      "email": "LevanA@gmail.com",
-      "statusRead": true,
-      "createAt": "29-04-2003 21:22:17"
-     
-    },
-    {
-      "id": "20f5",
-      "idJob": "5",
-      "idUser": "4674", 
-      "name": "CV_management",
-      "email": "horanjamerson11@outlook.com",
-      "phone": "837849",
-      "statusRead": true
-    },
-    {
-      "id": "ea56",
-      "idJob": "5",
-      "idUser": "4674", 
-      "name": "CV_management",
+      "id": "c8f3",
+      "statusRead": false,
+      "idJob": "dcd0",
+      "idUser": "32ee",
+      "name": "Business Analysist",
+      "phone": "3443567",
       "email": "minhduc04022003@gmail.com",
-      "phone": "5454",
-      "statusRead": true
+      "experience": "5 năm",
+      "description": "Muốn làm Backend",
+      "skill": "Java",
+      "createAt": "06-11-2024 08:27:22",
+      "createUpdate": "",
+      "statusApply": "Not Pass",
+      "dateInterview": "12-12-2024",
+      "scoreInterview": 30,
+      "key": "c8f3"
     },
     {
-      "id": "59f7",
-      "idJob": "2",
-      "idUser": "4674", 
-      "name": "NguyenVanDai",
-      "email": "dainjnjnj",
-      "phone": "0238343",
-      "statusRead": true
-    }
-  ],
-  "company": [
-    {
-      "companyName": "Công ty ABX",
-      "phone": "9384909433",
-      "email": "contactabc.com",
-      "password": "12345",
-      "token": "jhsuiHSUYjsiue",
-      "id": "1",
-      "quantityPeople": 8,
-      "description": "Tầm nhìn chiên sluwojcb.....",
-      "detail": "Mức lương cạnh tranh ....",
-      "address": "Nam TU Liem",
-      "workingTime": "T2-T7",
-      "website": "https://abcxyz.com"
+      "id": "337d",
+      "statusRead": false,
+      "idJob": "5",
+      "idUser": "7861",
+      "name": "Tesster",
+      "phone": "123123",
+      "email": "horanjamerson11@outlook.com",
+      "experience": "5 năm",
+      "description": "Lương cao",
+      "skill": "Java",
+      "createAt": "06-11-2024 11:56:09",
+      "createUpdate": "",
+      "statusApply": "Apply",
+      "dateInterview": "18-12-2024",
+      "scoreInterview": 0,
+      "key": "337d"
     }
   ],
   "account": [
-    {
-      "phone": "9384909433",
-      "email": "contactabc.com",
-      "password": "12345",
-      "token": "jhsuiHSUYjsiue",
-      "id": "1"
-    },
     {
       "id": "4674",
       "name": "Miuye",
       "email": "leemindee204@gmail.com",
       "phone": "837849",
+      "isAdmin": true,
+      "isInformation": true,
       "password": "3434",
+      "skill": "",
+      "experience": "",
+      "description": "",
       "token": "du1qAPtxk20UG6D7tvQk"
     },
     {
-      "id": "f1c5",
-      "name": "Dai",
-      "email": "dai.com",
-      "phone": "8983297",
-      "password": "343423",
-      "token": "1j9kpuUrS4kVlkfz6XGk"
+      "id": "7861",
+      "name": "Tesster",
+      "email": "horanjamerson11@outlook.com",
+      "phone": "123123",
+      "password": "123123",
+      "token": "NZPg9jEBDbbw7Y2J83Ro",
+      "isAdmin": false,
+      "isInformation": true,
+      "skill": "Java",
+      "experience": "5 năm",
+      "description": "Lương cao"
     },
     {
-      "id": "51cf",
-      "name": "CV_management",
-      "email": "minhduc04022003@mindx.net",
-      "phone": "983874",
-      "password": "3234243",
-      "token": "g9XbzfHBQxChPU0800QN"
+      "id": "32ee",
+      "name": "Business Analysist",
+      "email": "minhduc04022003@gmail.com",
+      "phone": "3443567",
+      "password": "123123",
+      "token": "VlA5FA5MEOeaaQOymTJM",
+      "isAdmin": false,
+      "isInformation": true,
+      "skill": "Java",
+      "experience": "5 năm",
+      "description": "Muốn làm Backend"
     }
   ]
 }
